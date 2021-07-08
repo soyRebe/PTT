@@ -1,5 +1,6 @@
 # PTT
-Prueba Front-end en Angular Contexto Los estudios Ghibli necesitan mostrar un catálago de sus películas a través de una página 
+Prueba Front-end en Angular 
+Contexto Los estudios Ghibli necesitan mostrar un catálago de sus películas a través de una página 
 que permita visualizar información de las mismas,  como un listado general de las películas del estudio y ver detalle de cada una de las películas.  
 Instrucciones Hacer uso del API libre Studio Ghibli API v1.0.1 como backend de la página.  Crear un componente que sea la vista inicial del listado
 de las películas, mostrando información general como título,  director, año de estreno, duración y calificación. Es de libre elección el uso de cards, 
