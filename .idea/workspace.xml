@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="580be473-0628-4034-9d47-981120f81ceb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1uuM8GmDb8RJee73rBWZtXauE2f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript/proyecto-angular" />
+    <property name="ts.external.directory.path" value="E:\RebecaDoc\PTF\my-ptt\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\RebecaDoc\PTF\my-ptt\src\assets\i18n" />
+      <recent name="E:\RebecaDoc\PTF\my-ptt\src\app" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="580be473-0628-4034-9d47-981120f81ceb" name="Default Changelist" comment="" />
+      <created>1625510859718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625510859718</updated>
+      <workItem from="1625510860891" duration="2477000" />
+      <workItem from="1625513520563" duration="295000" />
+      <workItem from="1625513827599" duration="201000" />
+      <workItem from="1625514046217" duration="32000" />
+      <workItem from="1625514163445" duration="162000" />
+      <workItem from="1625514357185" duration="2112000" />
+      <workItem from="1625518887331" duration="745000" />
+      <workItem from="1625519767155" duration="102000" />
+      <workItem from="1625519927419" duration="14000" />
+      <workItem from="1625520012069" duration="4006000" />
+      <workItem from="1625578159120" duration="411000" />
+      <workItem from="1625578790921" duration="1209000" />
+      <workItem from="1625580021483" duration="2703000" />
+      <workItem from="1625594352861" duration="597000" />
+      <workItem from="1625597514604" duration="3000" />
+      <workItem from="1625597566450" duration="16000" />
+      <workItem from="1625597729000" duration="2000" />
+      <workItem from="1625598837665" duration="2000" />
+      <workItem from="1625599485547" duration="2000" />
+      <workItem from="1625603174424" duration="9000" />
+      <workItem from="1625663596374" duration="6191000" />
+      <workItem from="1625669848970" duration="609000" />
+      <workItem from="1625670481518" duration="403000" />
+      <workItem from="1625670907194" duration="2791000" />
+      <workItem from="1625687753814" duration="9448000" />
+      <workItem from="1625748288818" duration="1208000" />
+      <workItem from="1625749575981" duration="2362000" />
+      <workItem from="1625751966363" duration="3713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="420" y="247" key="FileChooserDialogImpl" timestamp="1625578572125">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="247" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1625578572125" />
+  </component>
+</project>

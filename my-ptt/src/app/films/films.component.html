@@ -1,0 +1,49 @@
+<section class="container-fluid text-center">
+  <!--Section heading-->
+  <h2 class="font-weight-bold h1 py-5">
+    <strong>{{ 'films.title' | translate}}</strong>
+  </h2>
+  <!--Section description-->
+  <p class="grey-text pb-5 text-center mx-xl-5 px-xl-5">
+    {{'films.description'| translate}}
+  </p>
+  <div class="col-12 px-0">
+    <section class="containerSearch d-flex justify-content-center align-items-center">
+      <div class="input-group col-md-4">
+        <input [(ngModel)]="filterFilm" name="filterFilm" class="form-control py-2 border-right-0 border"
+               type="search" placeholder="Buscar" aria-label="Search">
+          <button  class="btn btn-outline-secondary border-left-0 border" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>
+      </div>
+    </section>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center" *ngFor="let film of films | filter: filterFilm">
+      <div class="card py-3 mb-3"style="width: 18rem;">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img
+            src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+            class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" >{{ film.title }}</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">original title: {{ film.original_title }}</li>
+            <li class="list-group-item">Director: {{ film.director }}</li>
+            <li class="list-group-item">Release year: {{ film.release_date }}</li>
+            <li class="list-group-item">Duration: {{ film.running_time }}</li>
+            <li class="list-group-item">Score: {{ film.rt_score }}</li>
+          </ul>
+          <a [routerLink]="'/detail/' + film.id" class="btn btn-primary bg-secondary mt-2">more details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

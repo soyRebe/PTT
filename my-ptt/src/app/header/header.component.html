@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Studio Ghibli API</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="basicNav.toggle()"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <div
+      class="collapse navbar-collapse"
+      id="navbarNav"
+      mdbCollapse
+      #basicNav="mdbCollapse"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a [routerLink]="['/films']" class="nav-link active" aria-current="page" >Films</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/detail']" class="nav-link">Detail</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
